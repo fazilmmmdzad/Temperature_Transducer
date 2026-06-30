@@ -130,7 +130,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(38, 525);
+            this.label4.Location = new System.Drawing.Point(37, 518);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 23);
             this.label4.TabIndex = 29;
@@ -139,9 +139,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::TemperatureTransducer.Properties.Resources.Honey_Photoroom;
-            this.pictureBox2.Location = new System.Drawing.Point(134, 521);
+            this.pictureBox2.Location = new System.Drawing.Point(129, 508);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(34, 30);
+            this.pictureBox2.Size = new System.Drawing.Size(40, 40);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 30;
             this.pictureBox2.TabStop = false;
@@ -150,7 +150,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Trebuchet MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(175, 525);
+            this.label6.Location = new System.Drawing.Point(175, 518);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(155, 23);
             this.label6.TabIndex = 29;

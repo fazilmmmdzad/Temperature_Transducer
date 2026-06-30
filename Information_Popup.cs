@@ -16,7 +16,7 @@ namespace TemperatureTransducer
             txt_ApplicationName.Text = "Honey Degrees";
             txt_Creator.Text = "Fazil Məmmədzadə";
             txt_DateOfCreation.Text = "10.01.2025 10:11";
-            txt_Version.Text = "2.0";
+            txt_Version.Text = "1.0.1";
             label1.Select();
         }
     }

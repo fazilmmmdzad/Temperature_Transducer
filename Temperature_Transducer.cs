@@ -353,74 +353,27 @@ namespace TemperatureTransducer
 
         private void x_Paint(object sender, PaintEventArgs e)
         {
-            Graphics g = e.Graphics;
-            g.SmoothingMode = SmoothingMode.AntiAlias;
 
-            int cornerRadius = 10;
-
-            Rectangle rect = new Rectangle(0, 0, btn_F.Width, btn_F.Height);
-
-            GraphicsPath path = new GraphicsPath();
-
-            path.AddArc(rect.X, rect.Y, cornerRadius, cornerRadius, 180, 90);
-
-            path.AddArc(rect.Right - cornerRadius, rect.Y, cornerRadius, cornerRadius, 270, 90);
-
-            path.AddArc(rect.Right - cornerRadius, rect.Bottom - cornerRadius, cornerRadius, cornerRadius, 0, 90);
-
-            path.AddArc(rect.X, rect.Bottom - cornerRadius, cornerRadius, cornerRadius, 90, 90);
-
-            path.CloseFigure();
-
-            btn_F.Region = new Region(path);
         }
 
         private void btn_C_Paint(object sender, PaintEventArgs e)
         {
-            Graphics g = e.Graphics;
-            g.SmoothingMode = SmoothingMode.AntiAlias;
 
-            int cornerRadius = 10;
-
-            Rectangle rect = new Rectangle(0, 0, btn_C.Width, btn_C.Height);
-
-            GraphicsPath path = new GraphicsPath();
-
-            path.AddArc(rect.X, rect.Y, cornerRadius, cornerRadius, 180, 90);
-
-            path.AddArc(rect.Right - cornerRadius, rect.Y, cornerRadius, cornerRadius, 270, 90);
-
-            path.AddArc(rect.Right - cornerRadius, rect.Bottom - cornerRadius, cornerRadius, cornerRadius, 0, 90);
-
-            path.AddArc(rect.X, rect.Bottom - cornerRadius, cornerRadius, cornerRadius, 90, 90);
-
-            path.CloseFigure();
-
-            btn_C.Region = new Region(path);
         }
 
         private void btn_K_Paint(object sender, PaintEventArgs e)
         {
-            Graphics g = e.Graphics;
-            g.SmoothingMode = SmoothingMode.AntiAlias;
 
-            int cornerRadius = 10;
+        }
 
-            Rectangle rect = new Rectangle(0, 0, btn_K.Width, btn_K.Height);
+        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
 
-            GraphicsPath path = new GraphicsPath();
-
-            path.AddArc(rect.X, rect.Y, cornerRadius, cornerRadius, 180, 90);
-
-            path.AddArc(rect.Right - cornerRadius, rect.Y, cornerRadius, cornerRadius, 270, 90);
-
-            path.AddArc(rect.Right - cornerRadius, rect.Bottom - cornerRadius, cornerRadius, cornerRadius, 0, 90);
-
-            path.AddArc(rect.X, rect.Bottom - cornerRadius, cornerRadius, cornerRadius, 90, 90);
-
-            path.CloseFigure();
-
-            btn_K.Region = new Region(path);
+        private void minimizeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
